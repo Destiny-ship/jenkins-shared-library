@@ -3,7 +3,7 @@ package com.example
 class Docker implements Serializable {
 
     def script
-    docker (script) {
+    docker(script) {
         this.script = script
     }
     def buildDockerImage(String imageName) {
